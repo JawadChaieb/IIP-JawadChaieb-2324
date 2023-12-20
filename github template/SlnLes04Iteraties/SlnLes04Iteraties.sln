@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLancering", "ConsoleLancering\ConsoleLancering.csproj", "{D2500BFF-C794-4C65-AB3F-BC7C17DCCA45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGgd", "ConsoleGgd\ConsoleGgd.csproj", "{DCF4BA9F-8B7F-446F-A007-6B7073F486EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D2500BFF-C794-4C65-AB3F-BC7C17DCCA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2500BFF-C794-4C65-AB3F-BC7C17DCCA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2500BFF-C794-4C65-AB3F-BC7C17DCCA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF4BA9F-8B7F-446F-A007-6B7073F486EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF4BA9F-8B7F-446F-A007-6B7073F486EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF4BA9F-8B7F-446F-A007-6B7073F486EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF4BA9F-8B7F-446F-A007-6B7073F486EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
