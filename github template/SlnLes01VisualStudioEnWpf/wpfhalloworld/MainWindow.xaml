@@ -10,6 +10,6 @@
         <Label x:Name="label" Content="Hallo ! Hoe is je naam ?" HorizontalAlignment="Left" Margin="22,24,0,0" VerticalAlignment="Top" FontSize="14"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="22,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
         <Button x:Name="buttonOK" Content="OK" HorizontalAlignment="Left" Margin="195,57,0,0" VerticalAlignment="Top" Width="75" Click="buttonOK_Click"/>
-        <Button x:Name="buttonherstel" Content="herstel" HorizontalAlignment="Left" Margin="300,57,0,0" VerticalAlignment="Top" Width="75" Click="buttonCancel_Click"/>
+        <Button x:Name="buttonherstel" Content="herstel" HorizontalAlignment="Left" Margin="300,57,0,0" VerticalAlignment="Top" Width="75" Click="buttonherstel_Click"/>
     </Grid>
 </Window>

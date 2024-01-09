@@ -30,7 +30,7 @@ namespace wpfhalloworld
             label.Content = $"Hallo {textBox.Text}!";
         }
 
-        private void buttonCancel_Click(object sender, RoutedEventArgs e)
+        private void buttonherstel_Click(object sender, RoutedEventArgs e)
         {
             textBox.Clear();
         }
