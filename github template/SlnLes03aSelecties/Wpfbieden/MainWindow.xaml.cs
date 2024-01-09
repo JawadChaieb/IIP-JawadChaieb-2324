@@ -31,14 +31,14 @@ namespace Wpfbieden
         {
             if (string.IsNullOrEmpty(textBoxNaam.Text) || string.IsNullOrEmpty(textBoxBod.Text))
             {
-                MessageBox.Show("Vul a.u.b. de naam en het bod in.", "Bod mislukt", MessageBoxButton.OK, MessageBoxImage.Warning);
+                statustextblock.Text = "Vul a.u.b. de naam en het bod in.";
                 return;
             }
 
             double bod;
             if (!double.TryParse(textBoxBod.Text, out bod))
             {
-                MessageBox.Show("Vul a.u.b. een geldig bedrag in voor het bod.", "Bod mislukt", MessageBoxButton.OK, MessageBoxImage.Warning);
+                statustextblock.Text = "Vul a.u.b. een geldig bedrag in voor het bod.";
                 return;
             }
 
