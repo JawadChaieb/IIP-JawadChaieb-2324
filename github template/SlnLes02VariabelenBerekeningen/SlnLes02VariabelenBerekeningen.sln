@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAbonnement", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBmi", "ConsoleApp1\ConsoleBmi.csproj", "{BC65F282-EC5B-432E-A14F-2508C5EAC04C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleBuffet", "consoleBuffet\consoleBuffet.csproj", "{D491866A-5AE3-4EE0-9864-81F5C90525D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BC65F282-EC5B-432E-A14F-2508C5EAC04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC65F282-EC5B-432E-A14F-2508C5EAC04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC65F282-EC5B-432E-A14F-2508C5EAC04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D491866A-5AE3-4EE0-9864-81F5C90525D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D491866A-5AE3-4EE0-9864-81F5C90525D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D491866A-5AE3-4EE0-9864-81F5C90525D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D491866A-5AE3-4EE0-9864-81F5C90525D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
