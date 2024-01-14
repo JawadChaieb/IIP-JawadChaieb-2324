@@ -13,43 +13,27 @@ namespace ConsoleKlinkersSpaties
             Console.Write("Geef een tekst: ");
             string zin = Console.ReadLine().ToLower();
 
-            int klinkers = TelKlinkers(zin);
-            int spaties = TelSpaties(zin);
+            int klinkers = TelKarakters(zin, "aeiou");
+            int spaties = TelKarakters(zin, " ");
 
-            Console.WriteLine($"Deze tekst bevat {klinkers} klinkers en {spaties} spaties");
+            Console.WriteLine($"Deze tekst bevat " + klinkers + "klinkers en " + spaties + "spaties");
             Console.WriteLine($"In geheimschrift: {NaarGeheimschrift(zin)}");
             Console.ReadLine();
         }
 
-        static int TelKlinkers(string zin)
+        static int TelKarakters(string zin, string karakters)
         {
-            int klinkers = 0;
-            string klinkerLetters = "aeiou";
+            int count = 0;
 
             foreach (char letter in zin)
             {
-                if (klinkerLetters.Contains(letter))
+                if (karakters.Contains(letter))
                 {
-                    klinkers++;
+                    count++;
                 }
             }
 
-            return klinkers;
-        }
-
-        static int TelSpaties(string zin)
-        {
-            int spaties = 0;
-
-            foreach (char letter in zin)
-            {
-                if (letter == ' ')
-                {
-                    spaties++;
-                }
-            }
-
-            return spaties;
+            return count;
         }
 
         static string NaarGeheimschrift(string tekst)
@@ -58,14 +42,7 @@ namespace ConsoleKlinkersSpaties
 
             foreach (char letter in tekst)
             {
-                if (letter != ' ')
-                {
-                    geheimschrift += (char)(letter + 1);
-                }
-                else
-                {
-                    geheimschrift += ' ';
-                }
+                geheimschrift += (letter != ' ') ? (char)(letter + 1) : ' ';
             }
 
             return geheimschrift;

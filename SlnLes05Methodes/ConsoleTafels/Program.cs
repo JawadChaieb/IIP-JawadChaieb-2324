@@ -28,7 +28,7 @@ namespace ConsoleTafels
             {
                 string tafels = "";
                 int uitkomst = getal1 * i;
-                tafels = $"{getal2} x {i} = {uitkomst}";
+                tafels = $" " + getal2 + " x " + i + " = " + uitkomst;
                 Console.WriteLine(tafels);
             }
         }
