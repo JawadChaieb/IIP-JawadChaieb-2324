@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTafels", "ConsoleTafels\ConsoleTafels.csproj", "{FDEF194C-E03B-4E44-B00C-0D00215E238B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKlinkersSpaties", "ConsoleKlinkersSpaties\ConsoleKlinkersSpaties.csproj", "{97AB9EF8-A713-4411-ACB1-6108016EE425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FDEF194C-E03B-4E44-B00C-0D00215E238B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDEF194C-E03B-4E44-B00C-0D00215E238B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDEF194C-E03B-4E44-B00C-0D00215E238B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AB9EF8-A713-4411-ACB1-6108016EE425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AB9EF8-A713-4411-ACB1-6108016EE425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AB9EF8-A713-4411-ACB1-6108016EE425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AB9EF8-A713-4411-ACB1-6108016EE425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
