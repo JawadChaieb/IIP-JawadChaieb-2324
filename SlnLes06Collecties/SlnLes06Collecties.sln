@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePaswoordenSorteren",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBergbeklimmen", "ConsoleBergbeklimmen\ConsoleBergbeklimmen.csproj", "{4FA52D4C-5398-4FC4-A826-052B7315CC1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLotto", "ConsoleLotto\ConsoleLotto.csproj", "{B0A1F38F-1BD9-4224-9F8C-AA77623207DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4FA52D4C-5398-4FC4-A826-052B7315CC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FA52D4C-5398-4FC4-A826-052B7315CC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FA52D4C-5398-4FC4-A826-052B7315CC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A1F38F-1BD9-4224-9F8C-AA77623207DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A1F38F-1BD9-4224-9F8C-AA77623207DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A1F38F-1BD9-4224-9F8C-AA77623207DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A1F38F-1BD9-4224-9F8C-AA77623207DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
