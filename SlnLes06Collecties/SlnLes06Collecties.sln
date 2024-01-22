@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePaswoordenSorteren", "ConsolePaswoordenSorteren\ConsolePaswoordenSorteren.csproj", "{E91BA624-788B-434C-B3DC-A14384B4BB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBergbeklimmen", "ConsoleBergbeklimmen\ConsoleBergbeklimmen.csproj", "{4FA52D4C-5398-4FC4-A826-052B7315CC1C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E91BA624-788B-434C-B3DC-A14384B4BB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91BA624-788B-434C-B3DC-A14384B4BB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91BA624-788B-434C-B3DC-A14384B4BB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91BA624-788B-434C-B3DC-A14384B4BB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA52D4C-5398-4FC4-A826-052B7315CC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA52D4C-5398-4FC4-A826-052B7315CC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA52D4C-5398-4FC4-A826-052B7315CC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA52D4C-5398-4FC4-A826-052B7315CC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
