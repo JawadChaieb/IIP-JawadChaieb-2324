@@ -59,15 +59,15 @@ namespace WpfTodo
 
             if (priority == Priority.High)
             {
-                priorityBrush = Brushes.Red;
+                priorityBrush = Brushes.DarkRed;
             }
             else if (priority == Priority.Medium)
             {
-                priorityBrush = Brushes.Orange;
+                priorityBrush = Brushes.DarkOrange;
             }
             else if (priority == Priority.Low)
             {
-                priorityBrush = Brushes.Green;
+                priorityBrush = Brushes.DarkGreen;
             }
 
             return priorityBrush;
