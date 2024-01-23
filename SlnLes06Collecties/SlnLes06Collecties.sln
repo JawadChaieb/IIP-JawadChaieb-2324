@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLotto", "ConsoleLott
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLottoVervolg", "ConsoleLottoVervolg\ConsoleLottoVervolg.csproj", "{384C4F64-51FC-4ED7-BB60-7724AC553C77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTodo", "WpfTodo\WpfTodo.csproj", "{765DC716-EAF6-4E37-95AF-1EA560384DF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{384C4F64-51FC-4ED7-BB60-7724AC553C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{384C4F64-51FC-4ED7-BB60-7724AC553C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{384C4F64-51FC-4ED7-BB60-7724AC553C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765DC716-EAF6-4E37-95AF-1EA560384DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765DC716-EAF6-4E37-95AF-1EA560384DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765DC716-EAF6-4E37-95AF-1EA560384DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765DC716-EAF6-4E37-95AF-1EA560384DF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
